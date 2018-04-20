@@ -12,6 +12,7 @@
 		01780F20208A895700879BB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01780F1E208A895700879BB7 /* Main.storyboard */; };
 		01780F22208A895700879BB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01780F21208A895700879BB7 /* Assets.xcassets */; };
 		01780F25208A895700879BB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01780F23208A895700879BB7 /* LaunchScreen.storyboard */; };
+		01780F2D208A8A0F00879BB7 /* view2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01780F2C208A8A0F00879BB7 /* view2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		01780F21208A895700879BB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01780F24208A895700879BB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		01780F26208A895700879BB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01780F2C208A8A0F00879BB7 /* view2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = view2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				01780F21208A895700879BB7 /* Assets.xcassets */,
 				01780F23208A895700879BB7 /* LaunchScreen.storyboard */,
 				01780F26208A895700879BB7 /* Info.plist */,
+				01780F2C208A8A0F00879BB7 /* view2.swift */,
 			);
 			path = mergeme;
 			sourceTree = "<group>";
@@ -138,6 +141,7 @@
 			files = (
 				01780F1D208A895700879BB7 /* ViewController.swift in Sources */,
 				01780F1B208A895700879BB7 /* AppDelegate.swift in Sources */,
+				01780F2D208A8A0F00879BB7 /* view2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,11 +278,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = mergeme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CSCI423.mergeme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -288,11 +295,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = mergeme/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CSCI423.mergeme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
