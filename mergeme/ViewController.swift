@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func `switch`(_ sender: Any) {
+        print("hi")
     }
     
     @IBOutlet weak var first: UILabel!

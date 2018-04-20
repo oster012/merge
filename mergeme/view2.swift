@@ -9,5 +9,5 @@
 import UIKit
 
 class view2: NSObject {
-
+    let j = 0;
 }
